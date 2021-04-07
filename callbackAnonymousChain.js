@@ -1,8 +1,8 @@
-function caller_JADID_JADID(callback, callback2, callback3){
+function bia_ye_esme_kolan_JADID_BEZAR(callback, callback2, callback3){
     callback(callback2(callback3))
 }
 
-function caller2_JADID(callback, callback2, callback3){
+function caller2_new(callback, callback2, callback3){
     callback(callback2(callback3))
     return "slm"
 }
