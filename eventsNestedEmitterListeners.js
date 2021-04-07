@@ -1,7 +1,7 @@
 var events = require('events');
 var eventEmitter = new events.EventEmitter();
 
-function listner1() {
+function renamed_listner1() {
     //   do nothing 
 }
 function listner2() {
