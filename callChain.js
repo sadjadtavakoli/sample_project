@@ -1,11 +1,5 @@
-
-function firstOne(input11){
-    let result1 = secondOne(input11);
-    return result1
-}
-
-
 function secondOne_JADID(input21){
+    secondOne(5)
     return  "NOTHING"
 }
 
@@ -19,4 +13,4 @@ function fifthOne(input51){
     let doNothing = input51
 }
 
-firstOne(106016)
+secondOne_JADID(106016)
