@@ -1,3 +1,7 @@
+
+
+
+
 function bia_ye_esme_kolan_JADID_BEZAR(callback, callback2, callback3){
     callback(callback2(callback3))
 }
