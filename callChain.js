@@ -5,7 +5,7 @@ function firstOne(input11){
 }
 
 
-function secondOne(input21){
+function secondOne_renamed_version(input21){
     fifthOne(input21)
     return  input21
 }
