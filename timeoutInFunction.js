@@ -2,9 +2,10 @@ function foo(){
 //    do nothing 
 }
 
+function bar(){}
 
 function myFunction() {
-  setTimeout(foo, 1000);
+  setTimeout(bar, 1000);
 }
 
 setTimeout(function() {
