@@ -10,7 +10,7 @@ class SimpleClass{
         }
         return this.variable_1
     }
-    variable_3 = 14;
+    variable_3 = 156;
 
     static classStaticFunction(){
         return 100;
