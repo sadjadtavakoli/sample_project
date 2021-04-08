@@ -5,8 +5,8 @@ class SimpleClass{
     }
 
     classFunction(){
-        function innerFoo(){
-         // do nothing
+        function innerFoo(input){
+         // do nothing input
         }
         return this.variable_1
     }
