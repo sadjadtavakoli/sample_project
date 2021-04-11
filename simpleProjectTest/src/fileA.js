@@ -2,6 +2,7 @@ const functionC1 = require('./FileC').functionC1;
 
 function functionA1(){ // a
     functionC1()
+    let a = 5;
 }
 
 class FunctionA2Class {

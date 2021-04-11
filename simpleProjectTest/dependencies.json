@@ -1,0 +1,79 @@
+{
+    "FunctionA2Class--FileA.js--7:11": {
+        "tests": [
+            "testFunctionA2--Test_1.js--5:9"
+        ],
+        "callers": [],
+        "callees": []
+    },
+    "functionA2--FileA.js--8:10": {
+        "tests": [
+            "testFunctionA2--Test_1.js--5:9"
+        ],
+        "callers": [],
+        "callees": [
+            "functionA1--FileA.js--3:5"
+        ]
+    },
+    "functionA1--FileA.js--3:5": {
+        "tests": [
+            "testFunctionsA1B1--Test_1.js--15:19"
+        ],
+        "callers": [
+            "functionA2--FileA.js--8:10"
+        ],
+        "callees": [
+            "functionC1--FileC.js--2:4",
+            "functionC1--FileC.js--2:4"
+        ]
+    },
+    "functionC1--FileC.js--2:4": {
+        "tests": [
+            "testFunctionC1--Test_3.js--4:7",
+            "test2FunctionC1--Test_3.js--13:16"
+        ],
+        "callers": [
+            "functionA1--FileA.js--3:5",
+            "functionA1--FileA.js--3:5"
+        ],
+        "callees": []
+    },
+    "functionB1--FileB.js--1:4": {
+        "tests": [
+            "testFunctionsA1B1--Test_1.js--15:19"
+        ],
+        "callers": [],
+        "callees": [
+            "FunctionB2Class--FileB.js--6:10",
+            "functionB2--FileB.js--7:9"
+        ]
+    },
+    "FunctionB2Class--FileB.js--6:10": {
+        "tests": [],
+        "callers": [
+            "functionB1--FileB.js--1:4"
+        ],
+        "callees": []
+    },
+    "functionB2--FileB.js--7:9": {
+        "tests": [],
+        "callers": [
+            "functionB1--FileB.js--1:4"
+        ],
+        "callees": []
+    },
+    "FunctionB2Class--fileB.js--6:10": {
+        "tests": [
+            "testFuntionB2--Test_2.js--5:9"
+        ],
+        "callers": [],
+        "callees": []
+    },
+    "functionB2--fileB.js--7:9": {
+        "tests": [
+            "testFuntionB2--Test_2.js--5:9"
+        ],
+        "callers": [],
+        "callees": []
+    }
+}
