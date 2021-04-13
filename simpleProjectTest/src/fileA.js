@@ -7,7 +7,7 @@ function functionA1(){ // a
 
 class FunctionA2Class {
     functionA2(){ // d
-        functionA1()
+        //functionA1()
     }
 }
 
