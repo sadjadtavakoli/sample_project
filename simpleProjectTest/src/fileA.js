@@ -2,12 +2,11 @@ const functionC1 = require('./FileC').functionC1;
 
 function functionA1(){ // a
     functionC1()
-//     let's go
 }
 
 class FunctionA2Class {
     functionA2(){ // d
-        //functionA1()
+    functionA1()
     }
 }
 
