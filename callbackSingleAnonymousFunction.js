@@ -1,18 +1,21 @@
 
-function caller(callback){
+function caller(callback) {
     callback()
 }
 
-caller(()=>{
+caller(() => {
     //  do nothing
+    console.log("enough?!")
+    console.log("enough?!")
     console.log("enough?!")
 })
 
-((test)=>{
- console.log("let's test these ones!")
- console.log("let's test these ones!")
- })
- 
-function temp(){
+
+    ((test) => {
+        console.log("let's test these ones!")
+        console.log("let's test these ones!")
+    })
+
+function temp() {
 }
 
