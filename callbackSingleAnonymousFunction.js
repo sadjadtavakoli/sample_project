@@ -8,7 +8,7 @@ caller(()=>{
     console.log("enough?!")
 })
 
-(()=>(test){
+((test)=>{
  console.log("let's test these ones!")
  console.log("let's test these ones!")
  console.log("let's test these ones!")
