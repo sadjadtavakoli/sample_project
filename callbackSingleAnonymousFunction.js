@@ -8,7 +8,10 @@ caller(()=>{
     console.log("enough?!")
 })
 
+(()=>(test){
+ console.log("let's test these ones!")
+ })
+ 
 function temp(){
-    console.log("nothing")
 }
 
