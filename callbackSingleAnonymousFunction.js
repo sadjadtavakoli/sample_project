@@ -21,6 +21,9 @@ let testArrow = () => {
 
 let testFunction = function(){
     //  again nothing
+    function newone(){
+        
+    }
 }
 
 function temp() {
