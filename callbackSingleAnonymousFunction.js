@@ -28,3 +28,11 @@ let testFunction = function(){
 
 function temp() {
 }
+
+function tryThatone(){
+
+}
+
+let andthisone = function(){
+    
+}
