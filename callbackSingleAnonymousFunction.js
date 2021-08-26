@@ -10,18 +10,15 @@ caller(() => {
     }
     console.log("enough?!")
     console.log("enough?!")
-})((test) => {
-    console.log("let's test these ones!")
-    console.log("let's test these ones!")
 })
 
 let testArrow = () => {
     //  do nothing
 }
 
-let testFunction = function(){
+let testFunction = function () {
     //  again nothing
-    function newone(){
+    function newone() {
         // change new one!
     }
 }
@@ -29,10 +26,10 @@ let testFunction = function(){
 function temp() {
 }
 
-function tryThatone(){
+function tryThatone() {
 
 }
 
-let andthisone = function(){
-    
+let andthisone = function () {
+
 }
