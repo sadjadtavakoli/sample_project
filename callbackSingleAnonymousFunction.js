@@ -12,6 +12,7 @@ caller(() => {
 
 let testArrow = () => {
     //  do nothing
+    // also change this one!
 }
 
 let testFunction = function () {
@@ -29,5 +30,5 @@ function tryThatone() {
 }
 
 let andthisone = function () {
-
+//     do nothing! change this one see what's happening
 }
