@@ -22,7 +22,7 @@ let testArrow = () => {
 let testFunction = function(){
     //  again nothing
     function newone(){
-        
+        // change new one!
     }
 }
 
